@@ -9,12 +9,12 @@
 <script src="jquery.pingboard.js" type="text/javascript"></script>
 <script type="text/javascript">
   $(function(){
-      $('#pingboard').pingboard();
+      $('#demo').pingboard();
   });
 </script>
-<link media="all" rel="stylesheet" href="pingboard.css" type="text/css" />
+<link media="all" rel="stylesheet" href="css/pingboard.css" type="text/css" />
 <body>
-  <ul>
+  <ul id="demo">
     <li>回想</li>
     <li>flashback</li>
     <li>名前</li>
@@ -22,7 +22,17 @@
     <li>場所</li>
     <li>ああああああああああああ</li>
   </ul>
-  <div class="pingboard"></div>
+  <ul class="pingboard">
+    <ul class="pingboard-titlesection">
+        <li class="pingboard-title">回想</li>
+        <li class="pingboard-subtitle">flashback</li>
+    </ul>
+    <ul class="pingboard-detail">
+      <li class="pingboard-where"></li>
+      <li class="pingboard-when"></li>
+      <li class="pingboard-what"></li>
+    </ul>
+  </ul>
 </body>
 </html>
 

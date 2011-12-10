@@ -1,0 +1,55 @@
+.pingboard {
+  background: #28282B;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 337px;
+  display: block;
+  position: relative;
+}
+
+ul.pingboard ul.pingboard-titlesection {
+  border-left: solid 36px #FF3354;
+  height: 66px;
+  top: 12px;
+  left: 406px;
+  display: block;
+  position: absolute;
+}
+
+ul.pingboard li.pingboard-title {
+  color: #ffffff;
+  font-size: 36px;
+  padding: 0px 10px 30px;
+}
+
+ul.pingboard li.pingboard-subtitle {
+  color: #ffffff;
+}
+
+ul.pingboard li {
+  list-style: none;
+  display: block;
+}
+
+li.pingboard-who {
+  background-color: red;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  top: 87px;
+  left: 0px;
+  position: absolute;
+}
+
+ul.pingboard ul.pingboard-detail {
+  background: yellow;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 186px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+}
